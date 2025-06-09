@@ -10,4 +10,4 @@ WORKDIR /app
 
 COPY db /app/db
 
-entrypoint ["dbmate"]
+# entrypoint ["sh -c", "dbmate -e DATABASE_URL up"]

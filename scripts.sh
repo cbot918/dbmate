@@ -8,3 +8,5 @@ docker run --name postgres \
 
 
 docker run --rm --network="host" dbmate -u "postgres://yale:12345@127.0.0.1:5432/yale?sslmode=disable" up
+
+
